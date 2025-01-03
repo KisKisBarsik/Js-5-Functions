@@ -142,6 +142,8 @@
 function gjettetall() {
     
     let mittTall = Math.round(Math.random()*100)
+    alert(mittTall)
+    
 
     while (true) {
         
