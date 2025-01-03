@@ -3,19 +3,19 @@
 
 
 
-// function summere () {
+function summere () {
 
-//     let num1 = parseFloat(prompt("Skriv nummer 1"))
-//     let num2 = parseFloat(prompt("Skriv nummer 2"))
-//     let num3 = parseFloat(prompt("Skriv nummer 3"))
+    let num1 = parseFloat(prompt("Skriv nummer 1"))
+    let num2 = parseFloat(prompt("Skriv nummer 2"))
+    let num3 = parseFloat(prompt("Skriv nummer 3"))
 
-//     return num1 + num2 + num3
+    return num1 + num2 + num3
 
-// }
+}
 
-// let resultat = summere();
+let resultat = summere();
 
-// console.log(`Summen av tallene: ` + resultat)
+console.log(`Summen av tallene: ` + resultat)
 
 
 
@@ -23,30 +23,30 @@
 
 
 
-// function sammenligne () {
+function sammenligne () {
 
-//     let nummer1 = Math.round(Math.random()*10)
-//     let nummer2 = Math.round(Math.random()*10)
+    let nummer1 = Math.round(Math.random()*10)
+    let nummer2 = Math.round(Math.random()*10)
 
-//     if (nummer1 > nummer2) {
+    if (nummer1 > nummer2) {
 
-//         console.log(`${nummer1} er store enn ${nummer2}`)
+        console.log(`${nummer1} er store enn ${nummer2}`)
 
-//     } else if (nummer1 < nummer2) {
+    } else if (nummer1 < nummer2) {
 
-//         console.log(`${nummer1} er mindre enn ${nummer2}`);
+        console.log(`${nummer1} er mindre enn ${nummer2}`);
 
-//     } else {
+    } else {
 
-//         console.log(`${nummer1} og ${nummer2} er like`);
+        console.log(`${nummer1} og ${nummer2} er like`);
 
-//     }
+    }
 
-//     return (nummer1, nummer2)
+    return (nummer1, nummer2)
 
-// }
+}
 
-// sammenligne()
+sammenligne()
 
 
 
@@ -54,25 +54,25 @@
 
 
 
-// function calc() {
+function calc() {
 
-//     let tall1 = parseFloat(prompt("Skriv tall 1"))
-//     let tall2 = parseFloat(prompt("Skriv tall 2"))
+    let tall1 = parseFloat(prompt("Skriv tall 1"))
+    let tall2 = parseFloat(prompt("Skriv tall 2"))
 
-//     let ope = prompt("Hva vil du gjore")
+    let ope = prompt("Hva vil du gjore")
 
-//     if (ope === "+") {
-//         return (tall1 + tall2)
-//     } else if (ope === "-") {
-//         return (tall1 - tall2)
-//     } else if (ope === "*") {
-//         return (tall1 * tall2)
-//     } else {
-//         return (tall1 / tall2)
-//     }
-// }
+    if (ope === "+") {
+        return (tall1 + tall2)
+    } else if (ope === "-") {
+        return (tall1 - tall2)
+    } else if (ope === "*") {
+        return (tall1 * tall2)
+    } else {
+        return (tall1 / tall2)
+    }
+}
 
-// console.log(calc());
+console.log(calc());
 
 
 
@@ -80,33 +80,33 @@
 
 
 
-// function generertTall() {
+function generertTall() {
 
-//     const tall1 = Number(prompt(' Skriv et tall'))
-//     const tall2 = Number(prompt(' Skriv et tall til'))
+    const tall1 = Number(prompt(' Skriv et tall'))
+    const tall2 = Number(prompt(' Skriv et tall til'))
 
-//     while (true) {
+    while (true) {
 
-//         let randomNumber = Math.round(Math.random()*100)
+        let randomNumber = Math.round(Math.random()*100)
 
-//         if (randomNumber < tall1 || randomNumber > tall2) {
+        if (randomNumber < tall1 || randomNumber > tall2) {
 
-//             console.log(`Tallet ${randomNumber} er uriktig`);
+            console.log(`Tallet ${randomNumber} er uriktig`);
             
-//         } else {
+        } else {
 
-//             return (randomNumber)
-//             break;
+            return (randomNumber)
+            break;
 
-//         }
+        }
 
-//         break
+        break
 
-//     }
+    }
 
-// }
+}
 
-// console.log(generertTall())
+console.log(generertTall())
 
 
 
@@ -114,24 +114,24 @@
 
 
 
-// function genererFlereTall() {
+function genererFlereTall() {
 
-//     let sum = 0
-//     let tallene = []
+    let sum = 0
+    let tallene = []
 
-//     for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 10; i++) {
 
-//         let taller = Math.round(Math.random()*20);
-//         tallene.push(taller)
-//         sum += taller
+        let taller = Math.round(Math.random()*20);
+        tallene.push(taller)
+        sum += taller
         
-//     }
+    }
 
-//     console.log(`De tilfeldige tallene er: ` + tallene.join(",") + ". Summen er " + sum)
+    console.log(`De tilfeldige tallene er: ` + tallene.join(",") + ". Summen er " + sum)
 
-// }
+}
 
-// genererFlereTall()
+genererFlereTall()
 
 
 
